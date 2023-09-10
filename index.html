@@ -1,28 +1,25 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" dir="rtl">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>theForm</title>
-    <link
-      rel="stylesheet"
-      href="https://use.fontawesome.com/releases/v5.15.4/css/all.css"
-      integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm"
-      crossorigin="anonymous"
-    />
 
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
     <form class="form">
-      <input type="text" id="userName" placeholder="userName" />
-      <input type="text" id="passWord" placeholder="passWord" />
-      <span>Enter</span>
+      <input type="text" id="userName" placeholder="نام کاربری" />
+      <span class="userNameAlert"
+        >* نام کاربری باید حداقل شامل 12 کاراکتر باشد</span
+      >
+      <input type="password" id="passWord" placeholder="رمز عبور" />
+      <span class="passWordAlert"
+        >* رمزعبور باید حداقل شامل 8 کاراکتر باشد</span
+      >
+      <span class="btn">ورود</span>
     </form>
-    <div class="modal">
-      <i class="fa fa-times"></i>
-      <h2 class="modalText">Please enter the correct informations</h2>
-    </div>
+    <h2 class="modal">لطفا مقادیر صحیح وارد کنید</h2>
     <script src="app.js"></script>
   </body>
 </html>
