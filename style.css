@@ -1,0 +1,29 @@
+.modal {
+    margin: 20rem auto;
+    width: 30rem;
+    height: 15rem;
+    background-color: beige;
+    border: 2px solid #434343;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    border-radius: 3rem;
+    transform: translateY(-50rem);
+    transition: 0.3s all ease-in-out;
+}
+.modalText {
+    padding-bottom: 5rem;
+}
+.modal > i {
+    align-self: flex-end;
+    margin-right: 3rem;
+}
+span {
+    width: 3rem;
+    height: 3rem;
+    background-color: green;
+    color: aliceblue;
+    padding: .5rem;
+    cursor: pointer;
+}
